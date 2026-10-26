@@ -517,7 +517,7 @@ function ContactForm() {
     setSubmitting(true);
     setSubmitError("");
     try {
-      const response = await fetch("https://formspree.io/f/xdeepjq", {
+      const response = await fetch("https://formspree.io/f/xdeeepjq", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
