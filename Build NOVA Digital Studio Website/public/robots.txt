@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-# Add a production sitemap URL after configuring VITE_SITE_URL.
+Sitemap: https://nova-digital-studio.pages.dev/sitemap.xml
+
