@@ -22,7 +22,7 @@ const brand = {
 
   whatsapp: "https://wa.me/27681005684", portfolio: "https://first-seed-bkbb.vercel.app/",
 
-  location: "Johannesburg, Gauteng, South Africa", siteUrl: import.meta.env.VITE_SITE_URL || "",
+  location: "Johannesburg, Gauteng, South Africa", siteUrl: "https://nova-digital-studio.pages.dev",
 
 };
 
@@ -193,6 +193,8 @@ function Meta({ title, description }: { title: string; description: string }) {
     set('meta[property="og:title"]', "content", `${title} | ${brand.fullName}`);
 
     set('meta[property="og:description"]', "content", description);
+    
+    set('meta[property="og:url"]', "content", `${brand.siteUrl}${pathname}`);
 
     if (brand.siteUrl) set('link[rel="canonical"]', "href", `${brand.siteUrl}${pathname}`);
 
