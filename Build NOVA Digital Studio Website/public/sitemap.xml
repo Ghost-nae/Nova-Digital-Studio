@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Add absolute route URLs after VITE_SITE_URL is configured with the real production domain. -->
+  <url>
+    <loc>https://nova-digital-studio.pages.dev/</loc>
+  </url>
+  <url>
+    <loc>https://nova-digital-studio.pages.dev/services</loc>
+  </url>
+  <url>
+    <loc>https://nova-digital-studio.pages.dev/work</loc>
+  </url>
+  <url>
+    <loc>https://nova-digital-studio.pages.dev/about</loc>
+  </url>
+  <url>
+    <loc>https://nova-digital-studio.pages.dev/contact</loc>
+  </url>
 </urlset>
