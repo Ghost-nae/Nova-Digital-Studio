@@ -20,7 +20,7 @@ const brand = {
 
   email: "nkosinathi.nova4\@gmail.com", phone: "068 100 5684", phoneHref: "tel:+27681005684",
 
-  whatsapp: "https://wa.me/27681005684", portfolio: "https://first-seed-bkbb.vercel.app/",
+  whatsapp: "https://wa.me/27681005684", portfolio: "https://my-portfolio-kohl-delta-20.vercel.app/#",
 
   location: "Johannesburg, Gauteng, South Africa", siteUrl: "https://nova-digital-studio.pages.dev",
 
